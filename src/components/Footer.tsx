@@ -14,9 +14,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 lg:gap-12">
           <div className="col-span-2 md:col-span-1">
             <a href="#inicio" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-blue to-brand-green flex items-center justify-center">
-                <span className="text-white font-extrabold text-xs">G</span>
-              </div>
+              <img src="/logo.jpeg" alt="Gabarito.pro" className="h-10 w-auto rounded-lg" />
               <span className="text-lg font-bold text-white">
                 Gabarito<span className="text-brand-green">.pro</span>
               </span>

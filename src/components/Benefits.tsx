@@ -12,14 +12,14 @@ const benefits = [
   {
     icon: TrendingDown,
     value: '90%',
-    label: 'Até 90% menos tempo gasto com correcao',
+    label: 'Até 90% menos tempo gasto com correção',
     color: 'text-brand-blue',
     bg: 'bg-brand-blue/10',
   },
   {
     icon: Shuffle,
     value: 'Auto',
-    label: 'Versoes unicas geradas automaticamente',
+    label: 'Versões únicas geradas automaticamente',
     color: 'text-amber-600',
     bg: 'bg-amber-500/10',
   },
