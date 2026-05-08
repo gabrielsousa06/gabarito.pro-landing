@@ -4,34 +4,34 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const faqs = [
   {
-    question: 'O que e o Gabarito.pro?',
+    question: 'O que é o Gabarito.pro?',
     answer:
-      'O Gabarito.pro e uma plataforma educacional que permite criar provas objetivas com versoes unicas, gerar cartoes-resposta personalizados e corrigi-los automaticamente usando a camera do celular.',
+      'O Gabarito.pro é uma plataforma educacional que permite criar provas objetivas com versões únicas, gerar cartões-resposta personalizados e corrigí-los automaticamente usando a câmera do celular.',
   },
   {
-    question: 'Como funciona a correcao por camera?',
+    question: 'Como funciona a correção por câmera?',
     answer:
-      'Apos a prova, voce aponta a camera do celular para o cartao-resposta preenchido. Nossa tecnologia de reconhecimento optico (OMR) le as marcacoes e calcula a nota automaticamente, em segundos.',
+      'Após a prova, vôce aponta a câmera do celular para o cartão-resposta preenchido. Nossa tecnologia de reconhecimento óptico (OMR) lê as marcações e calcula a nota automaticamente, em segundos.',
   },
   {
     question: 'Preciso de algum equipamento especial?',
     answer:
-      'Nao! Voce so precisa de um celular com camera. Nao e necessario scanner, leitor optico ou nenhum equipamento adicional. A correcao e feita diretamente pelo app.',
+      'Não! Você só precisa de um celular com câmera. Não é necessário scanner, leitor óptico ou nenhum equipamento adicional. A correção é feita diretamente pelo app.',
   },
   {
-    question: 'As versoes da prova sao realmente unicas?',
+    question: 'As versões da prova são realmente únicas?',
     answer:
-      'Sim. O sistema embaralha tanto a ordem das questoes quanto a ordem das alternativas, gerando combinacoes unicas para cada versao. Isso torna a cola entre alunos praticamente impossivel.',
+      'Sim. O sistema embaralha tanto a ordem das questoes quanto a ordem das alternativas, gerando combinações únicas para cada versão. Isso torna a cola entre alunos praticamente impossível.',
   },
   {
-    question: 'O Gabarito.pro e gratuito?',
+    question: 'O Gabarito.pro é gratuito?',
     answer:
-      'Oferecemos um plano gratuito para professores comecarem a usar imediatamente. Para recursos avancados como relatorios detalhados e integracao com LMS, temos planos premium acessiveis.',
+      'Oferecemos um plano gratuito para professores comecarem a usar imediatamente. Para recursos avançados como relatórios detalhados e integração com LMS, temos planos premium acessíveis.',
   },
   {
     question: 'Funciona para qualquer disciplina?',
     answer:
-      'Sim! O Gabarito.pro funciona para qualquer disciplina que utilize questoes objetivas (multipla escolha). Voce pode organizar questoes por materia, assunto e nivel de dificuldade.',
+      'Sim! O Gabarito.pro funciona para qualquer disciplina que utilize questões objetivas (múltipla escolha). Vôce pode organizar questões por matéria, assunto e nível de dificuldade.',
   },
 ];
 
@@ -95,7 +95,7 @@ export default function FAQ() {
             Perguntas frequentes
           </h2>
           <p className="mt-4 text-lg text-gray-500">
-            Tire suas duvidas sobre o Gabarito.pro
+            Tire suas dúvidas sobre o Gabarito.pro
           </p>
         </div>
 

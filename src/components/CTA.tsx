@@ -25,21 +25,21 @@ export default function CTA() {
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
             Pronto para transformar a{' '}
-            <span className="text-brand-green">sua correcao</span>?
+            <span className="text-brand-green">sua correção</span>?
           </h2>
           <p className="text-lg lg:text-xl text-white/60 max-w-2xl mx-auto mb-10">
-            Junte-se a milhares de professores que ja economizam horas com
-            correcao automatica. Comece gratuitamente hoje.
+            Junte-se a milhares de professores que já economizam horas com
+            correção automática. Comece gratuitamente hoje.
           </p>
           <a
             href="#"
             className="inline-flex items-center gap-2 px-10 py-5 rounded-full bg-brand-green text-white font-bold text-lg hover:bg-brand-green-dark transition-all shadow-2xl shadow-green-500/30 hover:shadow-green-500/50 hover:-translate-y-0.5"
           >
-            Comecar gratuitamente
+            Começar gratuitamente
             <ArrowRight size={20} />
           </a>
           <p className="mt-4 text-sm text-white/40">
-            Sem cartao de credito. Cadastro rapido.
+            Sem cartão de crédito. Cadastro rápido.
           </p>
         </div>
       </div>

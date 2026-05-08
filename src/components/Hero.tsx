@@ -73,10 +73,10 @@ function AnswerSheetMockup() {
               <div className="w-3 h-3 rounded-full bg-brand-green animate-pulse-slow" />
             </div>
             <span className="text-[10px] font-medium text-brand-green">
-              Leitura automatica
+              Leitura automática por câmera
             </span>
           </div>
-          <span className="text-[10px] text-gray-400">Versao A</span>
+          <span className="text-[10px] text-gray-400">Versão A</span>
         </div>
       </div>
     </div>
@@ -101,7 +101,7 @@ export default function Hero() {
             <div className="animate-fade-in-up">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-green/10 text-brand-green text-sm font-semibold border border-brand-green/20">
                 <Sparkles size={14} />
-                EdTech brasileira para professores
+                Plataforma para professores
               </span>
             </div>
 
@@ -110,17 +110,17 @@ export default function Hero() {
               style={{ animationDelay: '0.1s' }}
             >
               Corrija provas em minutos com{' '}
-              <span className="gradient-text">inteligencia</span> e{' '}
-              <span className="gradient-text">automacao</span>
+              <span className="gradient-text">inteligência</span> e{' '}
+              <span className="gradient-text">automação</span>
             </h1>
 
             <p
               className="text-lg lg:text-xl text-gray-500 leading-relaxed max-w-lg animate-fade-in-up"
               style={{ animationDelay: '0.2s' }}
             >
-              Gere provas com versoes unicas para cada aluno, cartoes-resposta
-              personalizados e correcao automatica por camera. Tudo em uma
-              plataforma simples e rapida.
+              Gere provas com versões unicas para cada aluno, cartões-resposta
+              personalizados e correção automática por câmera. Tudo em uma
+              plataforma simples e rápida.
             </p>
 
             <div
@@ -138,40 +138,10 @@ export default function Hero() {
                 href="#como-funciona"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 border-gray-200 text-brand-dark font-semibold text-base hover:border-brand-blue/30 hover:bg-brand-blue/5 transition-all"
               >
-                Ver como funciona
+                Veja como funciona
               </a>
             </div>
 
-            <div
-              className="flex items-center gap-6 pt-2 animate-fade-in-up"
-              style={{ animationDelay: '0.4s' }}
-            >
-              <div className="flex -space-x-2">
-                {[
-                  'bg-brand-blue',
-                  'bg-brand-green',
-                  'bg-amber-500',
-                  'bg-rose-500',
-                ].map((bg, i) => (
-                  <div
-                    key={i}
-                    className={`w-8 h-8 rounded-full ${bg} border-2 border-white flex items-center justify-center`}
-                  >
-                    <span className="text-white text-[10px] font-bold">
-                      {['P', 'M', 'A', 'L'][i]}
-                    </span>
-                  </div>
-                ))}
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-brand-dark">
-                  +2.000 professores
-                </p>
-                <p className="text-xs text-gray-400">
-                  ja usam o Gabarito.pro
-                </p>
-              </div>
-            </div>
           </div>
 
           <div

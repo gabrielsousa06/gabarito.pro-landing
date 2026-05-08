@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
+
 const navLinks = [
-  { label: 'Inicio', href: '#inicio' },
+  { label: 'Início', href: '#inicio' },
   { label: 'Recursos', href: '#recursos' },
   { label: 'Como funciona', href: '#como-funciona' },
   { label: 'FAQ', href: '#faq' },
@@ -30,9 +31,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a href="#inicio" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-brand-blue to-brand-green flex items-center justify-center">
-              <span className="text-white font-extrabold text-sm">G</span>
-            </div>
+            
+            <img src="/logo.jpeg" alt="Gabarito.pro" className="h-10 w-auto rounded-lg" />
+            
             <span className="text-xl font-bold text-brand-dark">
               Gabarito<span className="text-brand-green">.pro</span>
             </span>
@@ -54,7 +55,7 @@ export default function Navbar() {
             href="#cta"
             className="hidden lg:inline-flex items-center px-5 py-2.5 rounded-full bg-brand-green text-white text-sm font-semibold hover:bg-brand-green-dark transition-all shadow-lg shadow-green-500/20 hover:shadow-green-500/40 hover:-translate-y-0.5"
           >
-            Comecar agora
+            Começar agora
           </a>
 
           <button
@@ -85,7 +86,7 @@ export default function Navbar() {
               onClick={() => setMobileOpen(false)}
               className="block mt-3 text-center px-5 py-3 rounded-full bg-brand-green text-white text-sm font-semibold"
             >
-              Comecar agora
+              Começar agora
             </a>
           </div>
         </div>

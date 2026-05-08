@@ -5,25 +5,25 @@ const steps = [
   {
     icon: PenTool,
     number: '01',
-    title: 'Crie questoes',
+    title: 'Crie questões',
     description:
-      'Cadastre suas questoes objetivas com enunciado, alternativas e gabarito. Organize por disciplina e assunto.',
+      'Cadastre suas questões objetivas com enunciado, alternativas e gabarito. Organize por disciplina e assunto.',
     color: 'from-brand-blue to-blue-400',
   },
   {
     icon: Shuffle,
     number: '02',
-    title: 'Gere versoes',
+    title: 'Gere versões',
     description:
-      'Com um clique, gere multiplas versoes da prova com questoes e alternativas embaralhadas automaticamente.',
+      'Com um clique, gere múltiplas versões da prova com questões e alternativas embaralhadas automaticamente.',
     color: 'from-brand-green to-emerald-400',
   },
   {
     icon: Printer,
     number: '03',
-    title: 'Imprima cartoes',
+    title: 'Imprima cartões-resposta',
     description:
-      'Imprima as provas e cartoes-resposta personalizados para cada versao. Prontos para aplicar.',
+      'Imprima as provas e cartões-resposta personalizados para cada versão. Prontos para aplicar.',
     color: 'from-amber-500 to-orange-400',
   },
   {
@@ -31,7 +31,7 @@ const steps = [
     number: '04',
     title: 'Escaneie e receba a nota',
     description:
-      'Aponte a camera para o cartao-resposta e a correcao e feita automaticamente. Resultado instantaneo.',
+      'Aponte a câmera para o cartão-resposta e a correção é feita automaticamente. Resultado instantâneo.',
     color: 'from-rose-500 to-pink-400',
   },
 ];
@@ -60,7 +60,7 @@ export default function HowItWorks() {
             Como funciona?
           </h2>
           <p className="mt-4 text-lg text-gray-500">
-            Em apenas 4 passos, voce cria, aplica e corrige provas objetivas
+            Em apenas 4 passos, vôce cria, aplica e corrige provas objetivas
           </p>
         </div>
 

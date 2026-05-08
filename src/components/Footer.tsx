@@ -1,9 +1,9 @@
 import { Mail, Instagram, Youtube, Linkedin } from 'lucide-react';
 
 const footerLinks = {
-  Produto: ['Recursos', 'Como funciona', 'Planos', 'Integracoes'],
+  Produto: ['Recursos', 'Como funciona', 'Planos', 'Integrações'],
   Suporte: ['Central de ajuda', 'Tutoriais', 'Contato', 'Status'],
-  Empresa: ['Sobre nos', 'Blog', 'Carreiras', 'Imprensa'],
+  Empresa: ['Sobre nós', 'Blog', 'Carreiras', 'Imprensa'],
   Legal: ['Termos de uso', 'Privacidade', 'LGPD', 'Cookies'],
 };
 
@@ -22,7 +22,7 @@ export default function Footer() {
               </span>
             </a>
             <p className="text-sm text-white/40 leading-relaxed mb-6">
-              Plataforma educacional para criacao e correcao automatica de provas
+              Plataforma educacional para criação e correção automática de provas
               objetivas.
             </p>
             <div className="flex items-center gap-3">
@@ -65,7 +65,7 @@ export default function Footer() {
             reservados.
           </p>
           <p className="text-sm text-white/30">
-            Feito com dedicacao para professores brasileiros
+            Feito com dedicacção para professores que querem transformar a experiência de criar e corrigir provas.
           </p>
         </div>
       </div>

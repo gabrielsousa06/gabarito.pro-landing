@@ -4,27 +4,27 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 const features = [
   {
     icon: Shuffle,
-    title: 'Geracao automatica de versoes',
+    title: 'Geração automática de versões',
     description:
-      'Crie multiplas versoes da mesma prova com questoes e alternativas embaralhadas automaticamente, garantindo provas unicas para cada aluno.',
+      'Crie múltiplas versões da mesma prova com questões e alternativas embaralhadas automaticamente, garantindo provas únicas para cada aluno.',
     color: 'from-brand-blue to-blue-400',
     bg: 'bg-brand-blue/5',
     border: 'border-brand-blue/10',
   },
   {
     icon: Camera,
-    title: 'Correcao por camera (OMR)',
+    title: 'Correção por câmera (OMR)',
     description:
-      'Aponte a camera do celular para o cartao-resposta e receba a nota instantaneamente. Tecnologia OMR precisa e rapida, sem scanners.',
+      'Aponte a câmera do celular para o cartão-resposta e receba a nota instantaneamente. Tecnologia OMR precisa e rápida, sem scanners.',
     color: 'from-brand-green to-emerald-400',
     bg: 'bg-brand-green/5',
     border: 'border-brand-green/10',
   },
   {
     icon: Clock,
-    title: 'Reducao de cola e economia de tempo',
+    title: 'Redução de cola e economia de tempo',
     description:
-      'Com versoes unicas, a cola entre alunos e eliminada. E voce economiza horas de correcao manual que podem ser usadas para ensinar.',
+      'Com versões únicas, a cola entre alunos é eliminada. E vôce economiza horas de correção manual que podem ser usadas para ensinar.',
     color: 'from-amber-500 to-orange-400',
     bg: 'bg-amber-500/5',
     border: 'border-amber-500/10',
@@ -53,7 +53,7 @@ export default function WhyUse() {
             <span className="gradient-text">Gabarito.pro</span>?
           </h2>
           <p className="mt-4 text-lg text-gray-500">
-            Tudo que voce precisa para modernizar a criacao e correcao de provas
+            Tudo que vôce precisa para modernizar a criação e correção de provas
             objetivas
           </p>
         </div>

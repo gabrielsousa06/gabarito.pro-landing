@@ -48,7 +48,7 @@ export default function Benefits() {
             Resultados
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
-            Numeros que fazem a diferenca
+            Números que fazem a diferença
           </h2>
           <p className="mt-4 text-lg text-white/60">
             Veja como o Gabarito.pro transforma a rotina de professores
